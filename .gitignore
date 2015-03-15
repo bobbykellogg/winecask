@@ -2,3 +2,4 @@
 *.rbc
 /.config
 /log
+.sass-cache

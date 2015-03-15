@@ -1,7 +1,7 @@
 # The name of this site
 # This text displays in the back-office and
 # can be used in templates through the site.name global variable
-name: "winecask"
+name: 'Wine Cask Restaurant'
 
 # The site's subdomain
 # This option is for sites on multi-site engines
@@ -22,12 +22,12 @@ locales: [en]
 # This converts the server's time to the site's time zone in templates
 # The TimeZone class from Rail's ActiveSupport is used to interpret the string
 # Sample timezone strings: Tokyo, Beijing, Moscow, Cairo, Paris, Pacific Time (US & Canada)
-# timezone: Paris
+timezone: 'Pacific Time (US & Canada)'
 
 # For SEO purposes, sites may wish to add a relevant string to the <title> tag
 # And include <meta type="keywords"> and <meta type="description">
 # For this purpose you can set values for these variables here
 # They can be accessed in templates through the site.seo_title, site.meta_keywords, and site.meta_description variables
-seo_title: winecask
-meta_keywords: "some meta keywords"
-meta_description: "some meta description"
+seo_title: 'Santa Barbara’s culinary and wine landmark | Wine Cask Restaurant'
+meta_keywords: 'Wine Cask,Restaurant,Santa Barbara,CA,California,food,dining,drinks,cocktails,bar,wine,press,clippings,releases'
+meta_description: 'Wine Cask is a locally owned, multi-faceted restaurant with an iconic reputation as Santa Barbara’s culinary and wine landmark.'

@@ -1,0 +1,32 @@
+---
+title: Reservations
+
+# true if the page is included in the menu
+listed: true
+
+# true if the page is published
+published: true
+
+# position among sibling pages
+position: 3
+
+# sets a redirection to the given url (301)
+# redirect_url: "<url to a page or to a remote url>"
+
+# content type that this page is templatizing
+# content_type: "<slug of one of the content types>"
+
+# editable_elements:
+#   'some_block/some_slug': "<text>"
+#   'some_block/some_slug': "<relative path to the file under the public/samples folder>"
+---
+{% extends parent %}
+
+{% block content %}
+
+  <div id="open-table-code">
+    <script type="text/javascript" src="http://www.opentable.com/frontdoor/default.aspx?rid=37453&restref=37453&mode=wide&btnbgimage=http://www.opentable.com/frontdoor/img/ot_btn_black.png"></script>
+    <p><a class="OT_ExtLink" href="http://www.opentable.com/single.aspx?rid=37453&restref=37453">Wine Cask Reservations</a></p>
+  </div>
+
+{% endblock %}

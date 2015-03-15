@@ -1,0 +1,36 @@
+---
+title: Reviews
+
+# true if the page is included in the menu
+listed: true
+
+# true if the page is published
+published: true
+
+# position among sibling pages
+position: 1
+---
+{% extends parent %}
+
+{% block content %}
+
+  {% include 'section_nav' %}
+
+  <section id="reviews">
+    {% for review in contents.reviews %}
+    <article>
+      <blockquote>{{ review.body }}</blockquote>
+      <p class="author">
+        <strong>{{ review.reviewer }}</strong>
+        {% if review.source != "" %}<br>
+        {% if review.url != "" %}<a href="{{ review.url }}" rel="external">{% endif %}
+        {{ review.source }}
+        {% if review.url != "" %}</a>{% endif %}
+        {% endif %}
+        {% if review.extra_data != "" %}<br><span class="meta">{{ review.extra_data }}</span>{% endif %}
+      </p>
+    </article>
+    {% endfor %}
+  </section>
+
+{% endblock %}

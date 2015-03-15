@@ -1,0 +1,34 @@
+---
+title: Private Groups
+
+# true if the page is included in the menu
+listed: true
+
+# true if the page is published
+published: true
+
+# position among sibling pages
+position: 4
+
+# editable_elements:
+#   'some_block/some_slug': "<text>"
+#   'some_block/some_slug': "<relative path to the file under the public/samples folder>"
+---
+{% extends parent %}
+
+{% block banner %}
+
+  <div id="hero">
+    <img id="hero-image" src="{% editable_file 'Page image', hint: 'Top banner image in each page (1000px wide)' %}http://winecask.s3.amazonaws.com/sites/4f374336b3fad37fcd000004/pages/4f375147b3fad37fcd000083/files/private-groups.jpg{% endeditable_file %}">
+    <div id="intro">
+      {% editable_long_text 'intro' %}{% endeditable_long_text %}
+    </div>
+  </div>
+
+{% endblock %}
+
+{% block content %}
+
+  {% editable_long_text 'content' %}{% endeditable_long_text %}
+
+{% endblock %}

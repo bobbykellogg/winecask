@@ -1,0 +1,42 @@
+# Public name of this content type
+name: Staff Members
+
+# TODO: explain
+slug: staff_members
+
+# Explanation for the backoffice
+description: Bios of staff members that work at the restaurant.
+
+# Default field (e.g title)
+label_field_name: name
+
+# Order of entries
+order_by: manually
+
+# Describe each field. The name shoud always be an underscored string
+fields: 
+- name:
+    label: Name
+    type: string
+    required: true
+    hint: First and last name
+    localized: false
+
+- job_title:
+    label: Job title
+    type: string
+    required: true
+    localized: false
+
+- photo:
+    label: Photo
+    type: file
+    required: false
+    localized: false
+
+- bio:
+    label: Bio
+    type: text
+    required: false
+    localized: false
+    text_formatting: html

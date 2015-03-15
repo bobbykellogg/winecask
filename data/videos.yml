@@ -1,0 +1,5 @@
+- "Sample 1":
+    video_id: "Quos voluptatem consequatur quam."
+    title: "Facilis ipsam similique qui nisi officiis maxime id."
+    description: "Amet commodi aut nostrum eum molestiae id."
+    thumbnail: null # Path to a file in the public/samples folder or to a remote and external file.

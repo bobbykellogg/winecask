@@ -1,0 +1,38 @@
+# Public name of this content type
+name: Links
+
+# TODO: explain
+slug: links
+
+# Explanation for the backoffice
+description: Links to various external sites
+
+# Default field (e.g title)
+label_field_name: title
+
+# Order of entries
+order_by: manually
+
+# Display entries grouped by <field> in the backoffice
+group_by: link-category
+
+# Describe each field. The name shoud always be an underscored string
+fields: 
+- title:
+    label: Title
+    type: string
+    required: true
+    localized: false
+
+- url:
+    label: URL
+    type: string
+    required: true
+    localized: false
+
+- link_category:
+    label: Link Category
+    type: belongs_to
+    required: false
+    localized: false
+    class_name: link_categories

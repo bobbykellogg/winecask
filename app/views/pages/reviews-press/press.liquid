@@ -1,0 +1,33 @@
+---
+title: Press
+
+# true if the page is included in the menu
+listed: true
+
+# true if the page is published
+published: true
+
+# position among sibling pages
+position: 2
+---
+{% extends parent %}
+
+{% block content %}
+
+  {% include 'section_nav' %}
+
+  <section id="articles">
+    {% for article in contents.articles %}
+    <article>
+      <h2>{{ article.date | date: "%m.%d.%Y" }} - {% if article.source != "" %}{{ article.source }}, {% endif %}<em>{{ article.title }}</em></h2>
+      <div>
+        {{ article.body }}
+        {% if article.url != "" %}<p class="more-link"><a href="{{ article.url }}" rel="external">Read more...</a></p>{% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </section>
+
+<a href="http://www.opentable.com/rest_profile.aspx?rid=37453&restref=37453&intcmp=dcw" rel="external"><img src="https://s3.amazonaws.com/winecask/images/open_table_award.png" width="124" height="86" alt="Diners' Choice Award 2012" /></a>
+
+{% endblock %}

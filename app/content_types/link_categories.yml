@@ -1,0 +1,31 @@
+# Public name of this content type
+name: Link Categories
+
+# TODO: explain
+slug: link_categories
+
+# Explanation for the backoffice
+description: Categories for links
+
+# Default field (e.g title)
+label_field_name: title
+
+# Order of entries
+order_by: manually
+
+# Describe each field. The name shoud always be an underscored string
+fields: 
+- title:
+    label: Title
+    type: string
+    required: true
+    localized: false
+
+- links:
+    label: Links
+    type: has_many
+    required: false
+    localized: false
+    class_name: links
+    inverse_of: link_category
+    ui_enabled: true

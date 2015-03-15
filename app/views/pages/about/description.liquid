@@ -1,0 +1,21 @@
+---
+title: Description
+
+# true if the page is included in the menu
+listed: true
+
+# true if the page is published
+published: true
+
+# position among sibling pages
+position: 1
+---
+{% extends parent %}
+
+{% block content %}
+
+  {% include 'section_nav' %}
+
+  {% editable_text "description_body", rows: 20 %}{% endeditable_text %}
+
+{% endblock %}

@@ -1,0 +1,5 @@
+- "Sample 1":
+    slideshow: true # Or false
+
+- "Sample 2":
+    slideshow: false # Or false

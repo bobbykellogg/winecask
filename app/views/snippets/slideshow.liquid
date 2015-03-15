@@ -1,0 +1,9 @@
+<div class="slideshow">
+  {% for gallery in contents.galleries %}
+    {% if gallery.slideshow == true %}
+      {% for slide in gallery.images %}
+        {{ slide.image.url | image_tag }}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</div>

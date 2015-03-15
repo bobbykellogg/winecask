@@ -1,0 +1,27 @@
+---
+title: Staff
+
+# true if the page is included in the menu
+listed: true
+
+# true if the page is published
+published: true
+
+# position among sibling pages
+position: 2
+---
+{% extends parent %}
+
+{% block content %}
+
+  {% include 'section_nav' %}
+
+  {% for member in contents.staff_members %}
+  <div class="staff-bio">
+    {{ member.photo.url | image_tag }}
+    <h2>{{ member.name }}{% if member.job_title != "" %}, <em>{{ member.job_title }}</em>{% endif %}</h2>
+    {{ member.bio }}
+  </div>
+  {% endfor %}
+
+{% endblock %}

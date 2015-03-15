@@ -1,0 +1,37 @@
+---
+title: Contact Us
+
+# true if the page is included in the menu
+listed: true
+
+# true if the page is published
+published: true
+
+# position among sibling pages
+position: 8
+
+# sets a redirection to the given url (301)
+# redirect_url: "<url to a page or to a remote url>"
+
+# content type that this page is templatizing
+# content_type: "<slug of one of the content types>"
+
+# editable_elements:
+#   'some_block/some_slug': "<text>"
+#   'some_block/some_slug': "<relative path to the file under the public/samples folder>"
+---
+{% extends parent %}
+
+{% block banner %}
+
+  <div id="hero">
+    <iframe width="1000" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Wine+Cask,+813+Anacapa+Street,+Santa+Barbara,+CA&amp;aq=0&amp;oq=Wine+Cask,+813+Anacapa+Stre&amp;sll=34.421077,-119.698898&amp;sspn=0.009541,0.010042&amp;t=h&amp;ie=UTF8&amp;hq=Wine+Cask,&amp;hnear=813+Anacapa+St,+Santa+Barbara,+California+93101&amp;ll=34.421071,-119.698899&amp;spn=0.00708,0.021436&amp;z=16&amp;iwloc=&amp;output=embed"></iframe>
+  </div>
+  
+{% endblock %}
+
+{% block content %}
+
+  {% editable_text "contact_body", rows: 10 %}{% endeditable_text %}
+
+{% endblock %}

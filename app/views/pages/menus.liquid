@@ -1,0 +1,41 @@
+---
+title: Menus
+
+# true if the page is included in the menu
+listed: true
+
+# true if the page is published
+published: true
+
+# position among sibling pages
+position: 2
+
+# sets a redirection to the given url (301)
+# redirect_url: "<url to a page or to a remote url>"
+
+# content type that this page is templatizing
+# content_type: "<slug of one of the content types>"
+
+# editable_elements:
+#   'some_block/some_slug': "<text>"
+#   'some_block/some_slug': "<relative path to the file under the public/samples folder>"
+---
+{% extends parent %}
+
+{% block content %}
+
+  <ul id="menu-list">
+    {% for menu in contents.menus %}
+    <li>
+      <a href="{{ menu.pdf.url }}" rel="external">
+        {{ menu.image.url | image_tag }}
+        <h2>{{ menu.title }}</h2>
+        {% if menu.additional_content <> "" %}
+        <h3>{{ menu.additional_content }}</h3>
+        {% endif %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
+{% endblock %}
