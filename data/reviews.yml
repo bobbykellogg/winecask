@@ -1,33 +1,33 @@
-- "Sample 1":
-    description: "Asperiores et et nihil possimus."
-    slug: "sample-1"
-    body: "<p>Sit suscipit dolorum autem pariatur. Aut cupiditate quia tenetur accusantium animi consequatur nostrum autem. Cupiditate consequatur consequuntur aut eius doloribus. Non perspiciatis tempora blanditiis vero praesentium delectus et consequatur. Deleniti ut necessitatibus odit dolorem.</p>"
-    reviewer: "Placeat similique vitae impedit fugit quae in ad."
-    source: "Consequatur ut rerum consequuntur est alias."
-    url: "http://www.google.com"
-
-- "Sample 2":
-    description: "Et et minima quos debitis voluptatum deleniti cupiditate."
-    slug: "sample-2"
-    body: "<p>Cumque commodi distinctio recusandae. Qui et quo ab sit iste culpa quas. Nobis enim nihil odit qui voluptas doloremque.</p>"
-    reviewer: "Nam porro sequi autem laudantium est harum voluptas magni."
-    source: "Quod voluptate suscipit facere at dolore."
-    url: "http://www.google.com"
-
-- "Sample 3":
-    description: "Animi possimus et corrupti occaecati."
-    slug: "sample-3"
-    body: "<p>Est esse quasi numquam. Omnis quia reprehenderit rerum aut quae nostrum esse. Aliquid et maiores fugiat natus tenetur magnam consequatur.</p>"
-    reviewer: "Aliquam est id debitis."
-    extra_data: "Enim est aut voluptatem."
-    source: "Eos quam vero minus."
-    url: "http://www.google.com"
-
-- "Sample 4":
-    description: "Aut rerum est eos ipsa aut natus deserunt ad."
-    slug: "sample-4"
-    body: "<p>Est iure placeat eligendi. Et eos vero pariatur odit. Reprehenderit esse itaque nihil eveniet velit. Ea debitis aspernatur commodi qui.</p>"
-    reviewer: "Quia corrupti magnam recusandae ullam nihil eum."
-    source: "Aut aut nulla in quisquam."
-    url: "http://www.google.com"
-
+# - "Sample 1":
+#     description: "Asperiores et et nihil possimus."
+#     slug: "sample-1"
+#     body: "<p>Sit suscipit dolorum autem pariatur. Aut cupiditate quia tenetur accusantium animi consequatur nostrum autem. Cupiditate consequatur consequuntur aut eius doloribus. Non perspiciatis tempora blanditiis vero praesentium delectus et consequatur. Deleniti ut necessitatibus odit dolorem.</p>"
+#     reviewer: "Placeat similique vitae impedit fugit quae in ad."
+#     source: "Consequatur ut rerum consequuntur est alias."
+#     url: "http://www.google.com"
+#
+# - "Sample 2":
+#     description: "Et et minima quos debitis voluptatum deleniti cupiditate."
+#     slug: "sample-2"
+#     body: "<p>Cumque commodi distinctio recusandae. Qui et quo ab sit iste culpa quas. Nobis enim nihil odit qui voluptas doloremque.</p>"
+#     reviewer: "Nam porro sequi autem laudantium est harum voluptas magni."
+#     source: "Quod voluptate suscipit facere at dolore."
+#     url: "http://www.google.com"
+#
+# - "Sample 3":
+#     description: "Animi possimus et corrupti occaecati."
+#     slug: "sample-3"
+#     body: "<p>Est esse quasi numquam. Omnis quia reprehenderit rerum aut quae nostrum esse. Aliquid et maiores fugiat natus tenetur magnam consequatur.</p>"
+#     reviewer: "Aliquam est id debitis."
+#     extra_data: "Enim est aut voluptatem."
+#     source: "Eos quam vero minus."
+#     url: "http://www.google.com"
+#
+# - "Sample 4":
+#     description: "Aut rerum est eos ipsa aut natus deserunt ad."
+#     slug: "sample-4"
+#     body: "<p>Est iure placeat eligendi. Et eos vero pariatur odit. Reprehenderit esse itaque nihil eveniet velit. Ea debitis aspernatur commodi qui.</p>"
+#     reviewer: "Quia corrupti magnam recusandae ullam nihil eum."
+#     source: "Aut aut nulla in quisquam."
+#     url: "http://www.google.com"
+#

@@ -1,0 +1,44 @@
+<div id="gallery-thumbs">
+  {% for gallery in contents.galleries %}
+  {% if gallery.title == page.title %}
+  <ul>
+    {% for video in gallery.videos %}
+    
+    {% if video.service == 'Vimeo' %}
+    <li data-type="gallery-vid">
+      <a href="http://vimeo.com/{{video.video_id }}" data-title="{{ video.title }}" data-description="{{ video.description }}" data-service="{{ video.service }}" data-videoid="{{ video.video_id }}">
+        {% if video.thumbnail.url %}
+        <img src="{{ video.thumbnail | resize: '136x79#' }}" alt="{{ video.title }}">
+    	  {% else %}
+    	  <img src="{{ 'video_default.png' | theme_image_url | resize: '136x79#' }}" alt="{{ video.title }}">
+    	  {% endif %}
+      </a>
+    </li>
+    {% endif %}
+
+    {% if video.service == "YouTube" %}
+    {% assign vurl1 = "http://img.youtube.com/vi/" %}
+    {% assign vurl2 = "/0.jpg" %}
+    <li data-type="gallery-vid">
+      <a href="http://youtube.com/v/{{ video.video_id }}" data-title="{{ video.title }}" data-description="{{ video.description }}" data-service="{{ video.service }}" data-videoid="{{ video.video_id }}">
+        {% if video.thumbnail.filename != "" %}
+        <img src="{{ video.thumbnail | resize: '136x79#' }}" alt="{{ video.title }}">
+        {% else %}
+        <img src="{{ video.video_id | prepend: vurl1 | append: vurl2  | resize: '136x79#' }}" alt="{{ video.title }}">
+        {% endif %}
+      </a>
+    </li>
+    {% endif %}
+    {% endfor %}
+
+    {% for image in gallery.images %}
+    <li data-type="gallery-img">
+      <a href="{{ image.image.url }}" data-title="{{ image.title }}" data-description="{{ image.description }}">
+        <img src="{{ image.image | resize: '136x79#' }}" alt="{{ image.title }}">
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% endfor %}
+</div>

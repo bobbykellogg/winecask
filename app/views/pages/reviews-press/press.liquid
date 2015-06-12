@@ -22,7 +22,8 @@ position: 2
       <h2>{{ article.date | date: "%m.%d.%Y" }} - {% if article.source != "" %}{{ article.source }}, {% endif %}<em>{{ article.title }}</em></h2>
       <div>
         {{ article.body }}
-        {% if article.url != "" %}<p class="more-link"><a href="{{ article.url }}" rel="external">Read more...</a></p>{% endif %}
+        {% if article.url != '' %}<p class="more-link"><a href="{{ article.url }}" rel="external">Read more...</a></p>{% endif %}
+        {% if article.pdf_file.url %}<p class="more-link"><a href="{{ article.pdf_file.url }}" rel="external">Read more...</a></p>{% endif %}
       </div>
     </article>
     {% endfor %}

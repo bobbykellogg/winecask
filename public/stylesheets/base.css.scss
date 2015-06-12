@@ -11,6 +11,7 @@
 /* Table of Content
 ==================================================
   #Global Sass
+  #Font Includes
   #Reset & Basics
   #Basic Styles
   #Site Styles
@@ -34,6 +35,10 @@ $link-hover: #800507;
         -webkit-border-radius: $radius;
   -webkit-background-clip: padding-box;
 }
+
+/* #Font Includes
+================================================== */
+@import url(https://fonts.googleapis.com/css?family=Bitter);
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */

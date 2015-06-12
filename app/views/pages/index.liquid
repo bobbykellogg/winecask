@@ -41,10 +41,17 @@ published: true
         {% block 'banner' %}
         <div id="hero">
           {% if page.fullpath == 'index' %}
-            {% capture hero %}{% editable_file 'hero' %}/samples/pages/hero-default.jpg{% endeditable_file %}{% endcapture %}
-            <img src="{{ hero }}" alt="">
+            <div class="slideshow">
+              {% for gallery in contents.galleries %}
+              	{% if gallery.slideshow == true %}
+              		{% for slide in gallery.images %}
+              			{{ slide.image.url | image_tag }}
+              		{% endfor %}
+              	{% endif %}
+          	  {% endfor %}
+            </div>
           {% else %}
-            {% capture hero %}{% editable_file 'hero' %}/samples/pages/hero-default.jpg{% endeditable_file %}{% endcapture %}
+            {% capture hero %}{% editable_file 'hero' %}{{ 'hero-default.jpg' | theme_image_url }}{% endeditable_file %}{% endcapture %}
             <img src="{{ hero }}" alt="">
           {% endif %}
         </div>

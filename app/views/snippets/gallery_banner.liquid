@@ -1,0 +1,7 @@
+<div id="hero">
+  {% capture hero %}{% editable_file 'hero' %}{{ 'hero-default.jpg' | theme_image_url }}{% endeditable_file %}{% endcapture %}
+  <img id="hero-img" src="{{ hero }}" alt="">
+  <iframe id="ytembed" src="" width="0" height="0" frameborder="0"></iframe>
+  <iframe id="vembed" src="" width="0" height="0" frameborder="0"></iframe>
+  <!--p id="title-description">Title <em>Description</em></p-->
+</div>

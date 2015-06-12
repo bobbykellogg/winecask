@@ -1,2 +1,2 @@
-- "Sample 1":
-    pdf_file: null # Path to a file in the public/samples folder or to a remote and external file.
+# - "Sample 1":
+#     pdf_file: null # Path to a file in the public/samples folder or to a remote and external file.

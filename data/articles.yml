@@ -1,24 +1,23 @@
-- "Sample 1":
-    date: 2015/03/08 # YYYY/MM/DD
-    source: "Et ea iusto hic officiis."
-    url: "http://google.com"
-    body: "<p>Voluptate ducimus voluptatem amet. Tempora in maxime laborum et illum similique deleniti. Voluptates dolore voluptatem placeat. Non ad ipsum consequatur commodi accusamus consequatur rerum. Ipsam impedit similique ducimus quae officia iure neque est.</p>"
-
-- "Sample 2":
-    date: 2015/03/08 # YYYY/MM/DD
-    source: "Eum id repudiandae totam amet reprehenderit quia voluptates quibusdam."
-    url: "http://google.com"
-    body: "<p>Tempora tenetur porro cupiditate sunt quis veritatis. Facilis vel sunt praesentium ratione odit omnis fugit illo. Est tempore est expedita quaerat eveniet voluptatibus officiis.</p>"
-
-- "Sample 3":
-    date: 2015/03/08 # YYYY/MM/DD
-    source: "Facere libero quas consequatur ut labore autem omnis."
-    url: "http://google.com"
-    body: "<p>Aut architecto sed dolores ut est doloremque. Eaque excepturi dignissimos sed debitis totam itaque ad. Molestiae laboriosam exercitationem ea vel reprehenderit suscipit assumenda temporibus. Voluptates dolorem quasi reiciendis autem qui nihil et sed.</p>"
-
-- "Sample 4":
-    date: 2015/03/08 # YYYY/MM/DD
-    source: "Sed excepturi perspiciatis ea accusantium alias deserunt."
-    url: "http://google.com"
-    body: "<p>Sequi doloribus dignissimos iusto et consequatur. Et doloremque ut quasi dolores quam aliquid dicta. Ut voluptates aliquid explicabo quo. Quisquam aliquam ratione et suscipit eum. Sapiente consequatur ad qui ut in laborum rem totam.</p>"
-
+# - "Sample 1":
+#     date: 2015/03/08 # YYYY/MM/DD
+#     source: "Et ea iusto hic officiis."
+#     url: "http://google.com"
+#     body: "<p>Voluptate ducimus voluptatem amet. Tempora in maxime laborum et illum similique deleniti. Voluptates dolore voluptatem placeat. Non ad ipsum consequatur commodi accusamus consequatur rerum. Ipsam impedit similique ducimus quae officia iure neque est.</p>"
+#
+# - "Sample 2":
+#     date: 2015/03/08 # YYYY/MM/DD
+#     source: "Eum id repudiandae totam amet reprehenderit quia voluptates quibusdam."
+#     url: "http://google.com"
+#     body: "<p>Tempora tenetur porro cupiditate sunt quis veritatis. Facilis vel sunt praesentium ratione odit omnis fugit illo. Est tempore est expedita quaerat eveniet voluptatibus officiis.</p>"
+#
+# - "Sample 3":
+#     date: 2015/03/08 # YYYY/MM/DD
+#     source: "Facere libero quas consequatur ut labore autem omnis."
+#     url: "http://google.com"
+#     body: "<p>Aut architecto sed dolores ut est doloremque. Eaque excepturi dignissimos sed debitis totam itaque ad. Molestiae laboriosam exercitationem ea vel reprehenderit suscipit assumenda temporibus. Voluptates dolorem quasi reiciendis autem qui nihil et sed.</p>"
+#
+# - "Sample 4":
+#     date: 2015/03/08 # YYYY/MM/DD
+#     source: "Sed excepturi perspiciatis ea accusantium alias deserunt."
+#     url: "http://google.com"
+#     body: "<p>Sequi doloribus dignissimos iusto et consequatur. Et doloremque ut quasi dolores quam aliquid dicta. Ut voluptates aliquid explicabo quo. Quisquam aliquam ratione et suscipit eum. Sapiente consequatur ad qui ut in laborum rem totam.</p>"

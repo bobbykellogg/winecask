@@ -1,19 +1,19 @@
-- "David Rosner":
-    job_title: "Executive Chef"
-    photo: "http://winecask.s3.amazonaws.com/sites/4f374336b3fad37fcd000004/contents/content_instance/53d80ca2da6a810002000003/files/Rosner022-009.jpg"
-
-- "Jennifer Brodt":
-    job_title: "Director of Operations"
-    photo: "http://winecask.s3.amazonaws.com/sites/4f374336b3fad37fcd000004/contents/content_instance/4f679e591c613d0001000003/files/jennifer_brodt.jpg"
-
-- "Branden Bidwell":
-    job_title: "Wine Director"
-    photo: "http://winecask.s3.amazonaws.com/sites/4f374336b3fad37fcd000004/contents/content_instance/4f679e891c613d0001000005/files/Bidwell_website_2012.jpg"
-
-- "Sarah Rudd":
-    job_title: "General Manager"
-    photo: "http://winecask.s3.amazonaws.com/sites/4f374336b3fad37fcd000004/contents/content_instance/4f679ea01c613d0001000007/files/CaskUpdates17.jpg"
-
-- "Matt Pickett":
-    job_title: "Bar Manager"
-    photo: "http://winecask.s3.amazonaws.com/sites/4f374336b3fad37fcd000004/contents/content_instance/5302982f6b90f4000200000a/files/Staff17.jpg"
+# - "David Rosner":
+#     job_title: "Executive Chef"
+#     photo: "http://winecask.s3.amazonaws.com/sites/4f374336b3fad37fcd000004/contents/content_instance/53d80ca2da6a810002000003/files/Rosner022-009.jpg"
+#
+# - "Jennifer Brodt":
+#     job_title: "Director of Operations"
+#     photo: "http://winecask.s3.amazonaws.com/sites/4f374336b3fad37fcd000004/contents/content_instance/4f679e591c613d0001000003/files/jennifer_brodt.jpg"
+#
+# - "Branden Bidwell":
+#     job_title: "Wine Director"
+#     photo: "http://winecask.s3.amazonaws.com/sites/4f374336b3fad37fcd000004/contents/content_instance/4f679e891c613d0001000005/files/Bidwell_website_2012.jpg"
+#
+# - "Sarah Rudd":
+#     job_title: "General Manager"
+#     photo: "http://winecask.s3.amazonaws.com/sites/4f374336b3fad37fcd000004/contents/content_instance/4f679ea01c613d0001000007/files/CaskUpdates17.jpg"
+#
+# - "Matt Pickett":
+#     job_title: "Bar Manager"
+#     photo: "http://winecask.s3.amazonaws.com/sites/4f374336b3fad37fcd000004/contents/content_instance/5302982f6b90f4000200000a/files/Staff17.jpg"

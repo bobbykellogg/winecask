@@ -1,11 +1,10 @@
 ---
 title: Page not found
-published: false
+published: true
 ---
 {% extends index %}
 
-{% block 'main' %}
-
-<p>Page not found</p>
-
+{% block 'content' %}
+  <h1>{{ page.title }}</h1>
+  {% editable_long_text 'content' %}{% endeditable_long_text %}
 {% endblock %}

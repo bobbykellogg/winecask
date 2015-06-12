@@ -22,8 +22,18 @@ position: 3
 ---
 {% extends parent %}
 
+{% block banner %}
+
+  {% include gallery_banner %}
+
+{% endblock %}
+
 {% block content %}
 
   {% include 'section_nav' %}
+
+  {% editable_long_text 'content' %}{% endeditable_long_text %}
+
+  {% include gallery %}
 
 {% endblock %}

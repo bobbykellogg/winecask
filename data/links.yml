@@ -1,171 +1,171 @@
-- "Bouchon":
-    url: "http://www.bouchonsantabarbara.com/"
-    link_category: "our-family"
-
-- "Intermezzo":
-    url: "http://www.intermezzosb.com"
-    link_category: "our-family"
-
-- "American Riviera Dining":
-    url: "http://www.americanrivieradining.com/"
-    link_category: "our-family"
-
-- "Margerum Wine Company":
-    url: "http://www.margerumwinecompany.com"
-    link_category: "our-family"
-
-- "Au Bon Climat Tasting Room":
-    url: "http://www.aubonclimat.com/"
-    link_category: our-family
-
-- "Presidio Neighborhood":
-    url: "http://www.presidioneighborhoodsb.com/"
-    link_category: "santa-barbara-information"
-
-- "Urban Wine Trail Tasting":
-    url: "http://urbanwinetrailsb.com/"
-    link_category: "santa-barbara-information"
-
-- "Santa Barbara Certified Farmers Market":
-    url: "http://www.sbfarmersmarket.org/"
-    link_category: "santa-barbara-information"
-
-- "Santa Barbara Courthouse Wedding Information":
-    url: "http://www.countyofsb.org/parks/parks01.aspx?id=14888"
-    link_category: "santa-barbara-information"
-
-- "Santa Barbara Airport":
-    url: "http://www.flysba.com/"
-    link_category: "santa-barbara-information"
-
-- "The Santa Barbara Botanic Garden":
-    url: "http://www.sbbg.org/"
-    link_category: "santa-barbara-information"
-
-- "Wine Canyon Tours":
-    url: "http://www.winecanyontours.com/"
-    link_category: "santa-barbara-information"
-
-- "Santa Barbara Chamber of Commerce":
-    url: "http://www.sbchamber.org/"
-    link_category: "santa-barbara-information"
-
-- "Santa Barbara County Conference & Visitors' Bureau":
-    url: "http://www.santabarbaraca.com/"
-    link_category: "santa-barbara-information"
-
-- "Santa Barbara County Vintners' Association":
-    url: "http://www.sbcountywines.com/"
-    link_category: "santa-barbara-information"
-
-- "Santa Barbara Downtown Organization":
-    url: "http://www.santabarbaradowntown.com/"
-    link_category: "santa-barbara-information"
-
-- "Santa Barbara International Film Festival":
-    url: "http://www.sbfilmfestival.org/"
-    link_category: "santa-barbara-information"
-
-- "California Travel & Tourism Commission - Central Coast":
-    url: "http://www.visitcalifornia.com/region.php?key=central_coast"
-    link_category: "santa-barbara-information"
-
-- "Central Coast Tourism Council":
-    url: "http://centralcoast-tourism.com/index.html"
-    link_category: "santa-barbara-information"
-
-- "Greater Santa Barbara Lodging & Restaurant Association":
-    url: "http://www.gsblra.org/"
-    link_category: "santa-barbara-information"
-
-- "Wine Cask Blog":
-    url: "http://www.santabarbaragroupevents.com/wine-cask-site/"
-    link_category: "wedding-vendors-activities-transportation"
-
-- "Wine Tasting Guide":
-    url: "http://www.winebags.com/thevinedaily/beginners-guide-to-wine-tasting"
-    link_category: "wedding-vendors-activities-transportation"
-
-- "Fess Parker’s Doubletree Resort":
-    url: "http://www.fessparkersantabarbarahotel.com/"
-    link_category: "local-lodging"
-
-- "Four Seasons Resort the Biltmore Santa Barbara":
-    url: "http://www.fourseasons.com/santabarbara/"
-    link_category: "local-lodging"
-
-- "San Ysidro Ranch":
-    url: "http://www.sanysidroranch.com/"
-    link_category: "local-lodging"
-
-- "Spanish Garden Inn":
-    url: "http://www.spanishgardeninn.com/"
-    link_category: "local-lodging"
-
-- "Bacara":
-    url: "http://www.bacararesort.com/"
-    link_category: "local-lodging"
-
-- "Canary Hotel":
-    url: "http://www.canarysantabarbara.com/"
-    link_category: "local-lodging"
-
-- "Santa Barbara Inn":
-    url: "http://www.santabarbarainn.com/"
-    link_category: "local-lodging"
-
-- "El Encanto":
-    url: "http://www.elencanto.com/web/ele/el_encanto.jsp"
-    link_category: "local-lodging"
-
-- "Hotel Indigo":
-    url: "http://www.ichotelsgroup.com/hotelindigo/hotels/us/en/santa-barbara/sbain/hoteldetail"
-    link_category: "local-lodging"
-
-- "Command-O (our website designers)":
-    url: "http://cmnd-o.com/"
-    link_category: "our-friends"
-
-- "Vinson Photography (our website photographer)":
-    url: "http://www.shellyvinson.com/"
-    link_category: "our-friends"
-
-- "Santa Barbara Chocolate Co.":
-    url: "http://santabarbarachocolate.com/"
-    link_category: "our-friends"
-
-- "Lobero Theatre":
-    url: "http://www.lobero.com/"
-    link_category: "points-of-interest-within-walking-distance"
-
-- "The Arlington Theatre":
-    url: "http://thearlingtontheatre.com/"
-    link_category: "points-of-interest-within-walking-distance"
-
-- "The Granada Theatre":
-    url: "http://granadasb.org/"
-    link_category: "points-of-interest-within-walking-distance"
-
-- "Center Stage Theater":
-    url: "http://www.centerstagetheater.org/"
-    link_category: "points-of-interest-within-walking-distance"
-
-- "Santa Barbara Museum of Art":
-    url: "http://sbma.net/"
-    link_category: "points-of-interest-within-walking-distance"
-
-- "Alice Keck Park":
-    url: "http://www.santabarbaraca.gov/gov/depts/parksrec/parks/features/horticulture/alicekeck.asp"
-    link_category: "points-of-interest-within-walking-distance"
-
-- "Presidio":
-    url: "http://www.sbthp.org/presidio.htm"
-    link_category: "points-of-interest-within-walking-distance"
-
-- "Santa Barbara Historical Museum":
-    url: "http://www.santabarbaramuseum.com/"
-    link_category: "points-of-interest-within-walking-distance"
-
-- "State Street Shopping @ Paseo Nuevo":
-    url: "http://www.paseonuevoshopping.com/"
-    link_category: "points-of-interest-within-walking-distance"
+# - "Bouchon":
+#     url: "http://www.bouchonsantabarbara.com/"
+#     link_category: "our-family"
+#
+# - "Intermezzo":
+#     url: "http://www.intermezzosb.com"
+#     link_category: "our-family"
+#
+# - "American Riviera Dining":
+#     url: "http://www.americanrivieradining.com/"
+#     link_category: "our-family"
+#
+# - "Margerum Wine Company":
+#     url: "http://www.margerumwinecompany.com"
+#     link_category: "our-family"
+#
+# - "Au Bon Climat Tasting Room":
+#     url: "http://www.aubonclimat.com/"
+#     link_category: our-family
+#
+# - "Presidio Neighborhood":
+#     url: "http://www.presidioneighborhoodsb.com/"
+#     link_category: "santa-barbara-information"
+#
+# - "Urban Wine Trail Tasting":
+#     url: "http://urbanwinetrailsb.com/"
+#     link_category: "santa-barbara-information"
+#
+# - "Santa Barbara Certified Farmers Market":
+#     url: "http://www.sbfarmersmarket.org/"
+#     link_category: "santa-barbara-information"
+#
+# - "Santa Barbara Courthouse Wedding Information":
+#     url: "http://www.countyofsb.org/parks/parks01.aspx?id=14888"
+#     link_category: "santa-barbara-information"
+#
+# - "Santa Barbara Airport":
+#     url: "http://www.flysba.com/"
+#     link_category: "santa-barbara-information"
+#
+# - "The Santa Barbara Botanic Garden":
+#     url: "http://www.sbbg.org/"
+#     link_category: "santa-barbara-information"
+#
+# - "Wine Canyon Tours":
+#     url: "http://www.winecanyontours.com/"
+#     link_category: "santa-barbara-information"
+#
+# - "Santa Barbara Chamber of Commerce":
+#     url: "http://www.sbchamber.org/"
+#     link_category: "santa-barbara-information"
+#
+# - "Santa Barbara County Conference & Visitors' Bureau":
+#     url: "http://www.santabarbaraca.com/"
+#     link_category: "santa-barbara-information"
+#
+# - "Santa Barbara County Vintners' Association":
+#     url: "http://www.sbcountywines.com/"
+#     link_category: "santa-barbara-information"
+#
+# - "Santa Barbara Downtown Organization":
+#     url: "http://www.santabarbaradowntown.com/"
+#     link_category: "santa-barbara-information"
+#
+# - "Santa Barbara International Film Festival":
+#     url: "http://www.sbfilmfestival.org/"
+#     link_category: "santa-barbara-information"
+#
+# - "California Travel & Tourism Commission - Central Coast":
+#     url: "http://www.visitcalifornia.com/region.php?key=central_coast"
+#     link_category: "santa-barbara-information"
+#
+# - "Central Coast Tourism Council":
+#     url: "http://centralcoast-tourism.com/index.html"
+#     link_category: "santa-barbara-information"
+#
+# - "Greater Santa Barbara Lodging & Restaurant Association":
+#     url: "http://www.gsblra.org/"
+#     link_category: "santa-barbara-information"
+#
+# - "Wine Cask Blog":
+#     url: "http://www.santabarbaragroupevents.com/wine-cask-site/"
+#     link_category: "wedding-vendors-activities-transportation"
+#
+# - "Wine Tasting Guide":
+#     url: "http://www.winebags.com/thevinedaily/beginners-guide-to-wine-tasting"
+#     link_category: "wedding-vendors-activities-transportation"
+#
+# - "Fess Parker’s Doubletree Resort":
+#     url: "http://www.fessparkersantabarbarahotel.com/"
+#     link_category: "local-lodging"
+#
+# - "Four Seasons Resort the Biltmore Santa Barbara":
+#     url: "http://www.fourseasons.com/santabarbara/"
+#     link_category: "local-lodging"
+#
+# - "San Ysidro Ranch":
+#     url: "http://www.sanysidroranch.com/"
+#     link_category: "local-lodging"
+#
+# - "Spanish Garden Inn":
+#     url: "http://www.spanishgardeninn.com/"
+#     link_category: "local-lodging"
+#
+# - "Bacara":
+#     url: "http://www.bacararesort.com/"
+#     link_category: "local-lodging"
+#
+# - "Canary Hotel":
+#     url: "http://www.canarysantabarbara.com/"
+#     link_category: "local-lodging"
+#
+# - "Santa Barbara Inn":
+#     url: "http://www.santabarbarainn.com/"
+#     link_category: "local-lodging"
+#
+# - "El Encanto":
+#     url: "http://www.elencanto.com/web/ele/el_encanto.jsp"
+#     link_category: "local-lodging"
+#
+# - "Hotel Indigo":
+#     url: "http://www.ichotelsgroup.com/hotelindigo/hotels/us/en/santa-barbara/sbain/hoteldetail"
+#     link_category: "local-lodging"
+#
+# - "Command-O (our website designers)":
+#     url: "http://cmnd-o.com/"
+#     link_category: "our-friends"
+#
+# - "Vinson Photography (our website photographer)":
+#     url: "http://www.shellyvinson.com/"
+#     link_category: "our-friends"
+#
+# - "Santa Barbara Chocolate Co.":
+#     url: "http://santabarbarachocolate.com/"
+#     link_category: "our-friends"
+#
+# - "Lobero Theatre":
+#     url: "http://www.lobero.com/"
+#     link_category: "points-of-interest-within-walking-distance"
+#
+# - "The Arlington Theatre":
+#     url: "http://thearlingtontheatre.com/"
+#     link_category: "points-of-interest-within-walking-distance"
+#
+# - "The Granada Theatre":
+#     url: "http://granadasb.org/"
+#     link_category: "points-of-interest-within-walking-distance"
+#
+# - "Center Stage Theater":
+#     url: "http://www.centerstagetheater.org/"
+#     link_category: "points-of-interest-within-walking-distance"
+#
+# - "Santa Barbara Museum of Art":
+#     url: "http://sbma.net/"
+#     link_category: "points-of-interest-within-walking-distance"
+#
+# - "Alice Keck Park":
+#     url: "http://www.santabarbaraca.gov/gov/depts/parksrec/parks/features/horticulture/alicekeck.asp"
+#     link_category: "points-of-interest-within-walking-distance"
+#
+# - "Presidio":
+#     url: "http://www.sbthp.org/presidio.htm"
+#     link_category: "points-of-interest-within-walking-distance"
+#
+# - "Santa Barbara Historical Museum":
+#     url: "http://www.santabarbaramuseum.com/"
+#     link_category: "points-of-interest-within-walking-distance"
+#
+# - "State Street Shopping @ Paseo Nuevo":
+#     url: "http://www.paseonuevoshopping.com/"
+#     link_category: "points-of-interest-within-walking-distance"

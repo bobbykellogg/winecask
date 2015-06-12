@@ -1,17 +1,17 @@
-- "Dinner":
-    additional_content: "Tues - Sun from 5:30pm"
-    pdf: null
-    image: null
-
-- "Lunch":
-    additional_content: "Tues - Fri 11:30am - 2:00pm / Sat. 12-4pm"
-    pdf: null
-    image: null
-
-- "Dessert & Cheese":
-    pdf: null
-    image: null
-
-- "Wine List":
-    pdf: null
-    image: null
+# - "Dinner":
+#     additional_content: "Tues - Sun from 5:30pm"
+#     pdf: null
+#     image: null
+#
+# - "Lunch":
+#     additional_content: "Tues - Fri 11:30am - 2:00pm / Sat. 12-4pm"
+#     pdf: null
+#     image: null
+#
+# - "Dessert & Cheese":
+#     pdf: null
+#     image: null
+#
+# - "Wine List":
+#     pdf: null
+#     image: null
