@@ -10,7 +10,7 @@ subdomain: winecask
 
 # An array of domain aliases for the site
 # This option is for sites on multi-site engines
-# domains: [www.example.com, example.com]
+domains: [www.winecask.com, winecask.com]
 
 # An array of locales (languages) the site is available in
 # The locale listed first is the site's default locale

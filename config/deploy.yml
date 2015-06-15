@@ -3,13 +3,13 @@ development:
   email: bobby@cmnd-o.com
   password: 60-cmnd-0
   api_key: 0939f07ce38e3464d16238fe13796935bd430abc
-staging:
+# staging:
+#   host: winecask.locomotivehosting.com
+#   email: bobby@cmnd-o.com
+#   password: Ratfink666
+#   api_key: 4b8db159d9a483f9d0bf2c89f912715344045204
+production:
   host: winecask.locomotivehosting.com
   email: bobby@cmnd-o.com
   password: Ratfink666
   api_key: 4b8db159d9a483f9d0bf2c89f912715344045204
-production:
-  host: www.example.com
-  email: john@doe.net
-  password: apassword
-  # api_key: <your api key here>
