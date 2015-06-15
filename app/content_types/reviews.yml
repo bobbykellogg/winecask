@@ -8,7 +8,7 @@ slug: reviews
 description: Reviews from customers and publications about the Wine Cask Restaurant
 
 # Slug of field used to identify entries by default, such as the title
-label_field_name: title
+label_field_name: reviewer
 
 # Valid values: manually, created_at, updated_at, or the slug of any field
 order_by: manually

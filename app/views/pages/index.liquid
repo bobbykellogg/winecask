@@ -43,12 +43,12 @@ published: true
           {% if page.fullpath == 'index' %}
             <div class="slideshow">
               {% for gallery in contents.galleries %}
-              	{% if gallery.slideshow == true %}
-              		{% for slide in gallery.images %}
-              			{{ slide.image.url | image_tag }}
-              		{% endfor %}
-              	{% endif %}
-          	  {% endfor %}
+                {% if gallery.slideshow == true %}
+                  {% for slide in gallery.images %}
+                    {{ slide.image.url | image_tag }}
+                  {% endfor %}
+                {% endif %}
+              {% endfor %}
             </div>
           {% else %}
             {% capture hero %}{% editable_file 'hero' %}{{ 'hero-default.jpg' | theme_image_url }}{% endeditable_file %}{% endcapture %}

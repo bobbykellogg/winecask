@@ -25,7 +25,7 @@ $(function() {
     // fade in thumbnails
     $thumbs.find("img").hide();
     $("#gallery-thumbs img").each(function(index) {
-      $(this).delay(100*index).fadeIn(400);
+      $(this).delay(100*index).fadeIn(200);
     });
     
     fa = $("#gallery-thumbs a:first");

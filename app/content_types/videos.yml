@@ -60,9 +60,11 @@ fields:
     hint: Image will be resized to 136 x 79
     localized: false
 
-- gallery:
-    label: Gallery
-    type: belongs_to
+- galleries:
+    label: Galleries
+    type: many_to_many
     required: false
     localized: false
     class_name: galleries
+    inverse_of: videos
+    ui_enabled: true

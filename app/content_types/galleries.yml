@@ -42,11 +42,11 @@ fields:
 
 - videos:
     label: Videos
-    type: has_many
+    type: many_to_many
     required: false
     localized: false
     class_name: videos
-    inverse_of: gallery
+    inverse_of: galleries
     ui_enabled: true
 
 - images:
