@@ -21,7 +21,7 @@
     {% assign vurl2 = "/0.jpg" %}
     <li data-type="gallery-vid">
       <a href="http://youtube.com/v/{{ video.video_id }}" data-title="{{ video.title }}" data-description="{{ video.description }}" data-service="{{ video.service }}" data-videoid="{{ video.video_id }}">
-        {% if video.thumbnail.filename != "" %}
+        {% if video.thumbnail.url %}
         <img src="{{ video.thumbnail | resize: '136x79#' }}" alt="{{ video.title }}">
         {% else %}
         <img src="{{ video.video_id | prepend: vurl1 | append: vurl2  | resize: '136x79#' }}" alt="{{ video.title }}">

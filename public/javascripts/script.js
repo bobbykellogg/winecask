@@ -11,7 +11,7 @@ var $mobileName = "wine-cask-mobile";
 $(function() {
   isMobile();
   links();
-  
+
   // toggle press articles
   $("#articles article div").hide();
   $("#articles article h2").click(function() {
@@ -19,7 +19,7 @@ $(function() {
       .toggleClass("open")
       .next("div").slideToggle();
   });
-  
+
   // gallery
   if ($thumbs.length) {
     // fade in thumbnails
@@ -27,13 +27,13 @@ $(function() {
     $("#gallery-thumbs img").each(function(index) {
       $(this).delay(100*index).fadeIn(200);
     });
-    
+
     fa = $("#gallery-thumbs a:first");
     var fat = fa.data("title");
     var fad = fa.data("description") != "" ? "<em>"+fa.data("description")+"</em>" : "";
     //$ptitle.html(fat + " " + fad);
     $ptitle.html("Wine Cask Restaurant");
-    
+
     $thumbs.hover(function() {
       var mom = $(this).parent("li");
       var index = mom.index();
@@ -58,8 +58,7 @@ $(function() {
         })
       }
     });
-  
-  
+
     $thumbs.click(function(e) {
       e.preventDefault();
       var mom     = $(this).parent("li");
@@ -67,7 +66,7 @@ $(function() {
       var title   = $(this).data("title");
       var desc    = $(this).data("description") != "" ? "<em>" + $(this).data("description") + "</em>" : "";
       var caption = title + " " + desc;
-      
+
       if (mom.hasClass("active")) {
         return;
       } else {
@@ -85,13 +84,13 @@ $(function() {
           var vid   = $(this).data("videoid");
           // youtube
           if (vsvc == "youtube") {
-            $himage
+            $('#hero-img')
               .not(":hidden")
               .animate({
                 opacity: 0
               }, 350)
               .addClass("paused");
-            $vemb
+            $("#vembed")
               .attr({
                 "width": 0,
                 "height": 0,
@@ -100,7 +99,7 @@ $(function() {
               .animate({
                 opacity: 0
               }, 350);
-            $ytemb
+            $("#ytembed")
               .attr({
                 "width": 1000,
                 "height": 580,
@@ -112,13 +111,13 @@ $(function() {
           }
           // vimeo
           if (vsvc == "vimeo") {
-            $himage
+            $('#hero-img')
               .not(":hidden")
               .animate({
                 opacity: 0
               }, 350)
               .addClass("paused");
-            $ytemb
+            $("#ytembed")
               .attr({
                 "width": 0,
                 "height": 0,
@@ -127,7 +126,7 @@ $(function() {
               .animate({
                 opacity: 0
               }, 350);
-            $vemb
+            $("#vembed")
               .attr({
                 "width": 1000,
                 "height": 563,
@@ -141,7 +140,7 @@ $(function() {
         // image
         if (type == "gallery-img") {
           var newImg  = this.href;
-          $ytemb
+          $("#ytembed")
             .not(":hidden")
             .animate({
               opacity: 0
@@ -151,7 +150,7 @@ $(function() {
               "height": 0,
               "src": ""
             });
-          $vemb
+          $("#vembed")
             .not(":hidden").animate({
               opacity: 0
             })
@@ -160,7 +159,7 @@ $(function() {
               "height": 0,
               "src": ""
             });
-          $himage
+          $('#hero-img')
             .removeClass("paused")
             .animate({
               opacity: 0
@@ -197,7 +196,7 @@ function links() {
       window.open(this.href);
     });
   });
-  
+
   var emailLink = $("a[rel='email']");
   emailLink.each(function(e) {
     $(this).click(function() {
