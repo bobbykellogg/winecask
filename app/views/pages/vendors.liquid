@@ -1,5 +1,5 @@
 ---
-title: Links
+title: Vendors
 
 # true if the page is included in the menu
 listed: true
@@ -14,9 +14,7 @@ position: 3
 
 {% block content %}
 
-  {% include 'section_nav' %}
-
-  <section id="links">
+  <section id="vendors">
     {% for category in contents.link_categories %}
     <article class="link-category">
       <h2>{{ category.title }}</h2>

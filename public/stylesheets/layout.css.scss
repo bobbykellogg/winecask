@@ -127,8 +127,61 @@ $link-hover: #800507;
   text-align: right;
   
   li {
-    margin: 0 0 0 17px;
+    margin: 0 0 0 8px;
   }
+}
+
+#social-networks {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  margin: 0;
+  list-style: none;
+
+  li {
+    float: left;
+    width: 27px;
+    height: 27px;
+    margin: 0 0 0 5px;
+    padding: 0;
+    text-indent: -10000px;
+  }
+
+  a {
+    display: block;
+    width: 27px;
+    height: 27px;
+    background-color: transparent;
+    background-position: 0 0;
+
+    &:hover {
+      background-position: 0 -27px;
+    }
+  }
+}
+
+#facebook a {
+  background-image: url(../images/icon-facebook.png);
+}
+
+#google-plus a {
+  background-image: url(../images/icon-google-plus.png);
+}
+
+#instagram a {
+  background-image: url(../images/icon-instagram.png);
+}
+
+#pinterest a {
+  background-image: url(../images/icon-pinterest.png);
+}
+
+#twitter a {
+  background-image: url(../images/icon-twitter.png);
+}
+
+#youtube a {
+  background-image: url(../images/icon-youtube.png);
 }
 
 #content {
@@ -549,8 +602,8 @@ $link-hover: #800507;
   }
 }
 
-/*  Links */
-#links {
+/*  Vendors */
+#vendors {
   overflow: hidden;
   zoom: 1;
   
